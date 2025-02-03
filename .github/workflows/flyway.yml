@@ -31,3 +31,9 @@ jobs:
           user: admin
           password: secret
           locations: filesystem:./migrations
+
+      - name: Upload Flyway report
+        uses: actions/upload-artifact@v4
+        with:
+          name: Flyway-report
+          path: /github/workspace/report.html
