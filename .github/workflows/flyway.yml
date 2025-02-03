@@ -30,4 +30,4 @@ jobs:
           url: jdbc:postgresql://postgres:5432/devops_db
           user: admin
           password: secret
-          locations: filesystem:migrations
+          locations: filesystem:./migrations
