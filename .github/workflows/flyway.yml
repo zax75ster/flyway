@@ -36,4 +36,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Flyway-report
-          path: /github/workspace/report.html
+          path: report.html
